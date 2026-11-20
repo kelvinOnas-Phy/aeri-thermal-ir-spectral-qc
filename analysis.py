@@ -1,3 +1,5 @@
+# Kelvin Onas - AERI QC - June 2022 Barrow data
+# Based on ARM handbook + troubleshooting hatch logs
 import os
 import numpy as np
 import pandas as pd
