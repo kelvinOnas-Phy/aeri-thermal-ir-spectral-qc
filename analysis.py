@@ -192,7 +192,7 @@ print(" %d-%d cm-1: clear %d of %d, cloud-dominated %d" % (lo, hi,
 print("Correlation of BT(660-670) with air temperature (usable): %.2f" %
 obs.loc[obs["usable"], ["bt_co2", "air_temp"]].corr().iloc[0, 1])
 # ===============================================================
-# Section 6: what the file says about clouds
+# Section 6: File cloud details
 # ===============================================================
 cloud_names = [n for n in nc.variables if any(w in n.lower() for w in ["cloud",
 "optical", "tau", "cbh", "lwp"])]
